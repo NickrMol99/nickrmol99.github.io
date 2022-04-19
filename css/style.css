@@ -1,0 +1,117 @@
+/* NAV */
+.navbar-toggler {
+    border: 0px;
+}
+.navbar-nav span {
+    font-weight: 700;
+}
+/* END NAV */
+
+/* MAIN */
+.image1 {
+    position: absolute;
+    top: 0;
+    left: -10em;
+}
+.image1 img {
+    width: 35%;
+}
+.image2 {
+    position: absolute;
+    top: 10em;
+    right: 0em;
+}
+.image2 img {
+    width: 35%;
+}
+/* END MAIN */
+
+/* FOOTER */
+.form-control {
+    width: 50%;
+}
+@media only screen and (max-width: 767px) {
+    footer {
+        padding: 0 1em;
+    }
+    .space {
+        padding-bottom: 1.5em;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .socials {
+        padding-top: 2em;
+    }
+}
+/* END FOOTER */
+
+/* HOMEPAGE */
+
+/* Intro */
+.intro {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Products */
+.products .product_image {
+    background-color: #F3F3F3;
+}
+.products .product_image img {
+    width: 100%;
+}
+/* Hero */
+@media only screen and (max-width: 768px) {
+    .hero {
+        background-image: url('../images/Eyewear-bg.jpg') !important;
+    }
+}
+
+/* END HOMEPAGE */
+
+/* Collection */
+.women {
+    height: 712px;
+    background-image: url('../images/Women-glasses.jpg');
+    background-size: cover;
+}
+.featured_product {
+    height: 350px;
+    background-image: url('../images/Oakley.jpg');
+    background-size: cover;
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+}
+.men {
+    height: 350px;
+    background-image: url('../images/Men-glasses.jpg');
+    background-size: cover;
+    margin-left: 0.75em;
+}
+@media only screen and (max-width: 768px) {
+    .women {
+        height: 300px;
+    }
+    .men {
+        margin-left: 0em;
+        height: 150px;
+    }
+    .featured_product {
+        margin-left: 0em;
+        height: 150px;
+    }
+}
+
+/* WOMEN */
+.non-visible {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .visible {
+        display: none;
+    }
+    .non-visible {
+        display: block;
+    }
+}
