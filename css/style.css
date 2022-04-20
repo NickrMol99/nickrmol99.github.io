@@ -115,3 +115,63 @@
         display: block;
     }
 }
+
+/* DETAIL */
+.sunglass_default {
+    background-color: #F3F3F3;
+    background-image: url('../images/RayBan2-Shadow-v2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.sunglass_side {
+    background-color: #F3F3F3;
+    background-image: url('../images/Ray-Ban-Side.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}
+.sunglass_front {
+    background-color: #F3F3F3;
+    background-image: url('../images/Ray-Ban-Front.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}
+.sunglass_back {
+    background-color: #F3F3F3;
+    background-image: url('../images/Ray-Ban-Back.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}
+.sunglass_close {
+    background-color: #F3F3F3;
+    background-image: url('../images/Ray-Ban-Close.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+}
+@media only screen and (max-width: 768px) {
+    .sunglass_default {
+        background-size: contain;
+        height: 300px;
+    }
+    .sunglass_side, .sunglass_front, .sunglass_back, .sunglass_close {
+        display: none;
+    }
+}
+.rounded {
+    border-radius: 100px !important;
+    border: 1px solid #000;
+}
+.shopping {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+}
